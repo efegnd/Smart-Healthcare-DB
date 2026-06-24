@@ -25,3 +25,14 @@ Creating tables is the easy part; extracting meaningful business intelligence is
 * `hospital_database_schema.sql`: The main dump containing the BCNF table constraints (`PRIMARY KEY`, `FOREIGN KEY`) and initial mock data insertions.
 * `queries.sql`: The dedicated script containing the advanced analytical SQL statements.
 * `DBMS Homework.pdf`: The theoretical specifications, including my formulations in **Relational Algebra** and **Tuple Relational Calculus**.
+
+## 📊 Database Design & Schemas
+To visualize the underlying data architecture, I have provided the following key diagrams:
+
+* **ER Diagram:** Conceptual view of entities and their primary connections.
+* **EER Diagram:** Enhanced view detailing complex relationships within the healthcare system.
+* **Relational Schema:** The final normalized design mapping the structural flow of data.
+
+| ER Diagram | EER Diagram | Relational Schema |
+| :---: | :---: | :---: |
+| ![ER](er_diagram.jpg) | ![EER](eer_diagram.jpg) | ![Schema](relational_schema.jpg) |
